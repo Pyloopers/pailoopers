@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(255, 166, 0, 0.773), white,rgba(0, 128, 0, 0.859));
+  font-family: 'Gill Sans';
+  margin: 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+img {
+  display: grid;
+  right: 50%;
+  bottom:50%;
+  margin: auto;
+ opacity:0.35;
+ 
+}
+
+nav {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  padding: 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#About {
+  display: inline-block;
+}
+
+
+p {
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 40px;
+  padding: 20px;
+}
+
+.HOME {
+  font-size: large;
+  margin: auto;
+  padding: 40px;
+  max-width: 90%;
+  word-spacing: 2px;
+}
+
+.ABOUTUS {
+  font-size: large;
+  margin: auto;
+  margin-left: 80px;
+  padding: 40px;
+  word-spacing: 2px;
+  max-width: 70%;
+}
+
+.CONTACT {
+  font-size: large;
+  margin: auto;
+  padding: 40px;
+  word-spacing: 2px;
+}
+
+h3 {
+  margin: 8px;
+  padding: 10px;
+}
+
+h2 {
+  display: inline-block;
+  /* margin: 8px; */
+  /* padding: 10px; */
+
+}
+
+.HOVER :hover {
+  background-color: #fff;
+
+}
+
+li {
+  margin: auto;
+  padding: 4px;
+}
+
+.CONTACT {
+  display: grid;
+  order: ltr;
+}
+
+.CONNECT {
+  margin: auto;
+}
+.COPYRIGHT:hover{
+  display: inline;
+  margin: 4px;
+  padding: 8px;
+  background-color: #fff;
+}
